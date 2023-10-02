@@ -23,10 +23,31 @@ body {
   flex-direction: row;
   align-items: center;
 }
-
+/* ------------------------- the header container ---------- */
 #header {
-  background: black;
+  background: rgb(175, 119, 119);
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 10px;
+  flex: 1;
   
+}
+
+#search-div{
+  display: flex;
+  padding: 5px;
+  
+}
+#search-div input{
+  flex: 1;
+  border-radius: 10px;
+  border: none;
+  
+}
+
+#search-div img{
+  width: 20px;
 }
 
 #main {
@@ -37,6 +58,7 @@ body {
 }
 #main-content {
   background: yellow;
+  flex: 3;
 }
 
 li img {
