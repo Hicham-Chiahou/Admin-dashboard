@@ -1,12 +1,12 @@
 body {
   display: flex;
-  font-family: 'Roboto', sans-serif;}
+  font-family: "Roboto", sans-serif;
+}
 #side-bar {
   background-color: #3182df;
   height: 100vh;
   flex: 1;
   color: white;
-
 }
 
 #side-bar header img {
@@ -25,31 +25,74 @@ body {
 }
 /* ------------------------- the header container ---------- */
 #header {
-  background: rgb(175, 119, 119);
+  background: whitesmoke;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
   gap: 10px;
   flex: 1;
-  
+  padding: 10px;
 }
 
-#search-div{
+/* ------- search div ---------- */
+#search-div {
   display: flex;
   padding: 5px;
-  
+  align-items: center;
 }
-#search-div input{
+#search-div input {
   flex: 1;
   border-radius: 10px;
   border: none;
-  
+  height: 20px;
+  margin-left: 10px;
+  background-color: burlywood;
 }
 
-#search-div img{
+#search-div img {
   width: 20px;
 }
+/* ---------------------------- */
 
+/* --------- share-div----------- */
+#share-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#share-div button {
+  height: 30px;
+  width: 30%;
+  border-radius: 20px;
+  border: none;
+  background-color: #3182df;
+  color: white;
+}
+/*  ---------------------------- */
+/* -------------- profile div ---------- */
+#profile-div{
+  display: flex;
+}
+
+#profile-div img{
+  width: 60px;
+  margin-right: 10px;
+}
+/* ------------------------------------ */
+/* ---------------- user welcome ------- */
+#user-welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#user-welcome p{
+  margin: 10px 0 0 0;
+}
+
+
+/* ------------------------------------ */
 #main {
   background-color: green;
   flex: 3;
@@ -70,6 +113,6 @@ li {
   display: flex;
   margin-top: 10px;
 }
-ul{
+ul {
   padding-left: 20px;
 }
