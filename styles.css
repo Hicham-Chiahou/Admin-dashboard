@@ -33,6 +33,16 @@ body {
   flex: 1;
   padding: 10px;
 }
+/* ------- notification-div ----- */
+#notification-div img{
+  width: 40px;
+}
+#notification-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ----------------------------- */
 
 /* ------- search div ---------- */
 #search-div {
@@ -99,10 +109,29 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+/* ----------------- main-content -------- */
 #main-content {
   background: yellow;
   flex: 3;
+  display: flex;
+  /* width: 100%; */
 }
+#projects{
+  background-color: blue;
+  flex: 3;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+}
+.project-card{
+  background-color: green;
+}
+#side-content{
+  background-color: red;
+  flex: 1;
+}
+/* ------------------------------------- */
 
 li img {
   width: 20px;
