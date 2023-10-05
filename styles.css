@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   display: flex;
   font-family: "Roboto", sans-serif;
 }
@@ -34,7 +35,7 @@ body {
   padding: 10px;
 }
 /* ------- notification-div ----- */
-#notification-div img{
+#notification-div img {
   width: 40px;
 }
 #notification-div {
@@ -56,7 +57,7 @@ body {
   border: none;
   height: 20px;
   margin-left: 10px;
-  background-color: burlywood;
+  background-color: rgb(203, 203, 253);
 }
 
 #search-div img {
@@ -81,26 +82,25 @@ body {
 }
 /*  ---------------------------- */
 /* -------------- profile div ---------- */
-#profile-div{
+#profile-div {
   display: flex;
 }
 
-#profile-div img{
+#profile-div img {
   width: 60px;
   margin-right: 10px;
 }
 /* ------------------------------------ */
 /* ---------------- user welcome ------- */
-#user-welcome{
+#user-welcome {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#user-welcome p{
+#user-welcome p {
   margin: 10px 0 0 0;
 }
-
 
 /* ------------------------------------ */
 #main {
@@ -117,18 +117,39 @@ body {
   display: flex;
   /* width: 100%; */
 }
-#projects{
-  background-color: blue;
+#projects {
+  background-color: rgb(203, 203, 253);
   flex: 3;
   display: grid;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
 }
-.project-card{
-  background-color: green;
+.project-card {
+  background-color: rgb(243, 253, 243);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-#side-content{
-  background-color: red;
+.project-sharing{
+  display: flex;
+  justify-content: flex-end;
+}
+.project-card h4 {
+  margin: 0;
+}
+.project-card p {
+  margin: 0;
+  font-size: 12px;
+}
+.project-card img {
+ width: 25px;
+}
+
+#side-content {
+  background-color: rgb(203, 203, 253);
   flex: 1;
 }
 /* ------------------------------------- */
