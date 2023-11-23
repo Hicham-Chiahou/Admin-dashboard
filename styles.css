@@ -166,3 +166,12 @@ li {
 ul {
   padding-left: 20px;
 }
+
+/* ------- side-content----------*/
+#announcements{
+  background-color: blueviolet;
+}
+
+#trending{
+  background-color: blueviolet;
+}
